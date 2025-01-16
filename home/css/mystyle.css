@@ -21,11 +21,11 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 4px 5px rgba(235, 153, 153, 0.3), 0 6px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 5px #eb99994d, 0 6px 15px #ea969633;
   }
 
   nav {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(167, 98, 98, 0.8);
     color: white;
     padding: 10px;
     display: flex;

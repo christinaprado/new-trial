@@ -91,3 +91,30 @@ body {
     text-align: center;
     color: floralwhite;
   }
+
+  /* New styles for the Resources section */
+  #resources {
+    background-color: #87CEFA; /* Light blue for the resources section */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px; 
+    width: 70%; 
+  }
+
+  #resources h2 {
+    margin-bottom: 10px;
+  }
+
+  #resources ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  #resources li {
+    margin-bottom: 5px;
+  }
+
+  #resources a {
+    color: #000; /* Link color */
+    text-decoration: none;
+  }

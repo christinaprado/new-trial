@@ -92,9 +92,9 @@ body {
     color: floralwhite;
   }
 
-  /* New styles for the Resources section */
+  
   #resources {
-    background-color: #87CEFA; /* Light blue for the resources section */
+    background-color: #dd7e7ee6; 
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px; 
@@ -115,6 +115,6 @@ body {
   }
 
   #resources a {
-    color: #000; /* Link color */
+    color: #000; 
     text-decoration: none;
   }

@@ -1,10 +1,10 @@
 body {
   font-family: sans-serif;
+  background-image:('Spring Flowers.jpg');
   margin: 0;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url('https://pin.it/2uhmHwogC');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -28,8 +28,8 @@ nav {
   color: white;
   padding: 10px;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */ 
+  justify-content: center; 
+  align-items: center;  
   width: 100%;
   position: sticky;
   top: 60px;
@@ -52,9 +52,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%; /* Adjust width for better centering */
-  margin: 0 auto; /* Center horizontally */
-}
+  width: 80%; 
+  margin: 0 auto; 
 
 .card {
   background-color: #dd7e7ee6;
@@ -62,7 +61,7 @@ nav a:hover {
   padding: 20px;
   margin: 15px;
   text-align: center;
-  width: 80%; /* Adjust width for better centering */
+  width: 80%; 
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   color: #fff;
 }
@@ -79,7 +78,7 @@ nav a:hover {
 
 .photo-gallery {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* Adjust the number of columns as needed */
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
   padding: 20px;
 }

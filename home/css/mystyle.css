@@ -82,16 +82,16 @@ nav a:hover {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 10px;
   padding: 20px;
-  justify-content: center; /* Center horizontally */ 
 }
 
 .photo-gallery img {
-  width: 150px; /* Set the width */
-  height: 150px; /* Set the height */
-  object-fit: cover; /* Crop image to fit the box while preserving aspect ratio */
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+
 
 footer {
   text-align: center;

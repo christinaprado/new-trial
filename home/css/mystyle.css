@@ -1,117 +1,102 @@
-body {
-  font-family: sans-serif;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background-image: url('images/_7.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: #ffb5c0; 
-}
 
-header {
-  background-color: #bc5b5b;
-  color: floralwhite;
-  padding: 20px;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  box-shadow: 0 4px 5px #eb99994d, 0 6px 15px #ea969633;
-}
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-image: url('images/_7.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-color: #ffb5c0;
+    }
 
-nav {
-  background-color: rgba(167, 98, 98, 0.8);
-  color: white;
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  position: sticky;
-  top: 60px;
-  z-index: 999;
-}
+    header {
+      background-color: #bc5b5b;
+      color: floralwhite;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 4px 5px #eb99994d, 0 6px 15px #ea969633;
+    }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  padding: 5px 10px;
-  font-size: 1rem;
-  transition: color 0.3s ease;
-}
+    nav {
+      background-color: rgba(167, 98, 98, 0.8);
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      position: sticky;
+      top: 60px;
+      z-index: 999;
+    }
 
-nav a:hover {
-  color: #ffb5c0;
-}
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 10px;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 60%;
-}
+    nav a:hover {
+      color: #ffb5c0;
+    }
 
-.card {
-  background-color: #dd7e7ee6;
-  border-radius: 20px;
-  padding: 20px;
-  margin: 15px;
-  text-align: center;
-  width: 70%;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  color: #fff;
-}
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 60%;
+    }
 
-.card h2 {
-  margin-bottom: 10px;
-  font-size: 2rem;
-}
+    .card {
+      background-color: #dd7e7ee6;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 15px;
+      text-align: center;
+      width: 70%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      color: #fff;
+    }
 
-.card p {
-  margin: 0;
-  font-size: 1.5rem;
-}
+    .card h2 {
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
 
-.picture img {
-  border-radius: 10px;
-  max-width: 100%;
-  height: auto;
-  margin: 20px 0;
-}
+    .card p {
+      margin: 0;
+      font-size: 1.5rem;
+    }
 
-.missing-image {
-  border: 2px dashed #fff;
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  color: floralwhite;
-}
+    .photo-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+      padding: 20px;
+    }
 
-/* Grid layout */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-  grid-gap: 20px; 
-}
+    .photo-gallery img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
 
-.grid-item {
-  background-color: #F0E68C; 
-  border: 1px solid #ccc;
-  padding: 20px;
-  text-align: center;
-}
-
-/* Image frame within grid */
-.grid-item-image {
-  background-color: #ccc;
-}
-
-.grid-item-image img {
-  max-width: 100%;
-  max-height: 100%;
-}
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #bc5b5b;
+      color: floralwhite;
+    }

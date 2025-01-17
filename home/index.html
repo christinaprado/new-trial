@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/mystyle.css">
   <title>Christina Prado - Personal Profile</title>
   <style>
-    /* Add relevant styles here if needed */
+    
   </style>
 </head>
 <body>
@@ -33,33 +33,65 @@
 
     <div id="education" class="card">
       <h2>Education & Achievements</h2>
-      <p>SIT-MI, Bachelor of Science in Information Technology with specialization in Mobile and Internet Technologies</p>
+      <p>BSIT-MI, Bachelor of Science in Information Technology with specialization in Mobile and Internet Technologies</p>
     </div>
 
     <div id="experience" class="card">
       <h2>IT Experiences</h2>
-      <p>I first learned how to code using HTML when I was in 9th grade and I kind've liked it, and that encouraged me to take IT.</p>
+      <p>I first learned how to code using HTML when I was in 9th grade, and I kind've liked it, and that encouraged me to take IT.</p>
     </div>
 
     <div id="hobbies" class="card">
       <h2>Hobbies & Interests</h2>
-      <p>I like to walk and explore, eating out with friends, cleaning, organizing, and spending time with my furbabies.</p>
+      <p>I enjoy exploring new places through walking and eaating out with friends. I find satisfaction and peace in a clean and organized room, and spending quality time with my beloved furbabies brings me immense joy.</p>
     </div>
 
     <div id="goals" class="card">
       <h2>Goals in Life/Dreams</h2>
-      <p>To achieve a lot of good things in life.</p>
+      <p>As I look towards the future, my aspirations are to one day establish my own business, embark on adventures around the world, and to live a long, healthy, and stress-free life.</p>
     </div>
 
     <h1>Gallery</h1>
-    <div class="picture">
-      <img src="images/473234672_392367817272021_8414309603416098747_n.jpg" alt="Picture of me">
-    </div>
+      if col == 0:
+                html_code += f"""
+                    <div class="frame">
+                      <img src="images/473234672_392367817272021_8414309603416098747_n.jpg" alt="Picture of me">
+                    </div>
+                """
+            elif col == 1:
+                html_code += f"""
+                    <div class="frame">
+                      <img src="images/1.jpg" alt="Picture of me">
+                    </div>
+                """
+            elif col == 2:
+                html_code += f"""
+                    <div class="frame">
+                      <img src="images/6.jpg" alt="Picture of me">
+                    </div>
+                """
+            elif col == 3:
+                html_code += f"""
+                    <div class="frame">
+                      <img src="images/7.jpg" alt="Picture of me">
+                    </div>
+                """
+            elif col == 4:
+                html_code += f"""
+                    <div class="image-frame">
+                      <img src="images/" alt="Picture of me">
+                    </div>
+                """
 
-    <div class="picture">
-      <img src="images/472809345_822711613314671_8646975178640092817_n.jpg" alt="Picture of me">
-    </div>
-  </div>
+        elif row >= 3:  # Additional rows
+            html_code += f"""
+                <div class="frame">
+                  <img src="images/8.jpg" alt="Picture of me">
+                </div>
+    
+        </div>
+
+
 
   <div id="resources" class="card">
     <h2>Resources</h2>
@@ -67,5 +99,7 @@
       <li><a href="https://www.w3schools.com/">W3Schools</a></li>
     </ul>
   </div>
-</body>
-</html>
+  <div class="container">
+
+    </body>
+    </html>
